@@ -27,7 +27,7 @@ class QuoteCollector < Multilinguist
 end
 
 john = QuoteCollector.new()
-john.add_quote("This is a random quote entered just for testign purposes.")
+john.add_quote("This is a random quote entered just for testing purposes.")
 puts john.say_random_quote()
 puts john.say_random_quote()
 john.travel_to("Italy")
