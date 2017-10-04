@@ -24,6 +24,12 @@ end
 
 Nadia = Instructor.new("Nadia")
 puts Nadia.greeting()
+puts Nadia.teach()
+
+puts " "
 
 Chris = Student.new("Chris")
 puts Chris.greeting()
+puts Chris.learn()
+
+Chris.teach()
