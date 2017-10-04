@@ -1,7 +1,7 @@
+require './multilinguist/multilinguist.rb'
+
 class MathGenius < Multilinguist
 
-  def initialize(arr)
-    @numList = arr
-  end
+
 
 end
