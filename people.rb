@@ -21,3 +21,9 @@ class Instructor < Person
     return "Everything in Ruby is an Object."
   end
 end
+
+Nadia = Instructor.new("Nadia")
+puts Nadia.greeting()
+
+Chris = Student.new("Chris")
+puts Chris.greeting()
