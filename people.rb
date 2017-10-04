@@ -32,4 +32,5 @@ Chris = Student.new("Chris")
 puts Chris.greeting()
 puts Chris.learn()
 
-Chris.teach()
+#this does not work because student does not have a teach method
+#Chris.teach()
