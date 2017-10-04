@@ -1,3 +1,9 @@
+class body
+  def initialize(name,mass)
+    @name = name
+    @mass = mass
+end
+
 class System
 
   def initialize()
@@ -5,7 +11,7 @@ class System
   end
 
   def add(body)
-    @bodies << body    
+    @bodies << body
   end
 
 end
