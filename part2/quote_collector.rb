@@ -17,11 +17,7 @@ class QuoteCollector < Multilinguist
   end
 
   def say_random_quote()
-    listLength = @favQuotes.length
-    randNum = rand(listLength)
-    quote = @favQuotes[randNum]
-    quote = quote.to_s
-    return "#{say_in_local_language(quote)}"
+    return "#{say_in_local_language(@favQuotes.sample)}"
   end
 
 end
